@@ -1,0 +1,14 @@
+<http://example.org/memoriesOfSF/page2/>     <VCOnt:contains>         <http://example.org/memoriesOfSF/photoBook/photo3>                 .
+<http://example.org/memoriesOfSF/page2/>     <VCOnt:isAbout>          "Here you can see the second page of the San Francisco photobook"  .
+<http://example.org/memoriesOfSF/photoBook/> <VCOnt:contains>         <http://example.org/memoriesOfSF/page1/>                           .
+<http://example.org/memoriesOfSF/photoBook/> <VCOnt:contains>         <http://example.org/memoriesOfSF/page2/>                           .
+<http://example.org/memoriesOfSF/page1/>     <VCOnt:contains>         <http://example.org/memoriesOfSF/photoBook/photo1>                 .
+<http://example.org/memoriesOfSF/page1/>     <VCOnt:contains>         <http://example.org/memoriesOfSF/photoBook/photo2>                 .
+<http://example.org/memoriesOfSF/page1/>     <VCOnt:isAbout>          "This is the first page of the San Francisco photobook"            .
+<http://example.org/commit/4778-0>           <VCOnt:Commit>           <http://example.org/baseline/4778>                                 .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/photoBook/photo1>                 .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/photoBook/photo3>                 .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/photoBook/photo2>                 .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/photoBook/>                       .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/page2/>                           .
+<http://example.org/baseline/4778>           <VCOnt:Baseline>         <http://example.org/memoriesOfSF/page1/>                           .

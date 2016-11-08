@@ -1,0 +1,7 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+insert
+{
+	<http://example/memoriesOfSF/page3/>  <http://example.com/VCOnt-directory/isAbout>  "Here you can see the third page of the San Francisco photobook"
+}
+where {}

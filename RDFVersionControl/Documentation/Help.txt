@@ -1,0 +1,100 @@
+OPTIONS
+	-help:
+	Print the help menu with all commands
+
+	-C [<path>]
+	Set the directory of the workspace and initialize it. The current working directory is set as the default path, if no <path> is specified.
+	If the directory already runs as a KLD workspace, the current state will be adopted.
+
+	-config [user.name „authorname“] [rdfFormat „format“] [QVF „boolean“]:
+	Set configurations for the program
+	user.name: Set author ID for commit information
+	rdfFormat: Set format for RDF data input and output
+	QVF: quarter visualization format: Determine, wether both version model and application model should be shown
+		concurrently or only one at a time
+
+	-init [<path>]:
+	Set the path for the local repository and initialize it. If no path argument is added, the current working directory
+	will be set as the parent directory for the local repository.
+
+	-load [<path>] [-local]:
+		path: Load RDF dataset stored in the appropriate form (see config and log) in a text file into the working directory
+		-local: Update your workspace with the current version of the local repository
+
+	-clone:
+
+	-dir <path>:
+	Set the directory of the local repository. The given directory indicated by <path> has to be a previously initialized repository
+
+	-pwd:
+	Request current working directory
+
+	-gui [-workspace] [-localrepo]:
+	Display graphs in graphical visualization
+	If argument workspace is appended and QVF = false, workspace models will be displayed
+	If argument localrepo is appended and QVF = false, local repository models will be displayed
+
+	-index:
+	Display content of index layer
+
+	-add [-a] [-#]:
+	Add unstaged changes to index layer
+		-a adds all unstaged changes
+		-# adds the corresponding change identified by the given number
+
+	-rm:
+	Remove content from index layer
+		-a removes everything
+		-# removes the corresponding change identified by the given number
+
+	-reset:
+	
+	-tag:
+	Highlight particular commit with additional literal
+
+	-branch:
+	Print out the identifier of the last commit of every branch and identify the current branch
+
+	-merge [-[#]]:
+	Merge two commits from different branches in the local repository together by creating a union of the two RDF dataset
+		-[#]: Merge branch indicated by ‚#‘ to current branch
+
+	-push:
+
+	-pull:
+
+	-commit [-a]:
+	Add all changes from the index layer to the local repository
+		-a: Add all unstaged changes to the local repository irrespective of the state of the index layer
+	 
+	-checkout [-b] [-[#]]:
+		-b: Create new branch and switch to it
+		-[#]: Change current branch to branch indicated by number
+
+	-fetch:
+
+	-change [-script] [-select] [-tag]:
+	Add changes to the dataset in the workspace
+		-script: Enables modification via sparql scripts
+		-select: Enables modification by selecting the type of modification and the respective triple
+		-tag: Highlights a specific commit in the workspace history
+
+	-show [-version] [-branch] [-merge] [-tag]:
+	Enables overview of the workspace history
+		-version: displays the state of the dataset at a certain point in time both via the GUI and via the console
+		-branch: generates a new branch of commits in the workspace
+		-merge: merges two commits by generating the union of the two datasets
+		-tag: Highlights a specific commit in the workspace history
+
+	-log:
+	Prints out the configurations of the program:
+	File format: format for dataset storage and retrieval,
+	Author ID: name of the author
+	Quarter Visualization: GUI output format (if true: four windows, if false, two windows)
+	
+	-status:
+	List all unstaged changes (= differences between dataset in workspace and dataset in local repository)
+
+	-exit:
+	Exit the program and delete the workspace environment
+

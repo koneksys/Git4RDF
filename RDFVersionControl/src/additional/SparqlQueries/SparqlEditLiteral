@@ -1,0 +1,11 @@
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+delete
+{
+	<http://example/memoriesOfSF/page1/> <http://example.com/VCOnt-directory/isAbout> "This is the first page of the San Francisco photobook".
+}
+insert
+{
+  <http://example/memoriesOfSF/page1/> <http://example.com/VCOnt-directory/isAbout> "Testing the first modification to the graph".
+}
+where{}

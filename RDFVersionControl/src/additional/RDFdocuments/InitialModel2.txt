@@ -1,0 +1,3 @@
+<http://example.org/memoriesOfSF/photoBook/> <VCOnt:contains> <http://example.org/memoriesOfSF/page3/> .
+<http://example.org/memoriesOfSF/page3/> <VCOnt:contains> <http://example.org/memoriesOfSF/photoBook/photo5> .
+<http://example.org/memoriesOfSF/page3/> <VCOnt:contains> <http://example.org/memoriesOfSF/photoBook/photo4> .
