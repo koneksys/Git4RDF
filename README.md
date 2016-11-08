@@ -1,5 +1,6 @@
 #1. What is a Version Control System?
-A version control system allows you to track the history of data. It manages changes to a dataset and supports creating different versions of it. 
+A version control system allows you to track the history of data. It manages changes to a dataset and supports creating different versions of it.
+
 https://en.wikipedia.org/wiki/Version_control
 #2. Introduction to Koneksys Version Control
 Koneksys Version Control (KVC) is a version control concept specifically designed for the management of RDF datasets. It tracks the progress of an RDF project and stores previous versions of the data.
