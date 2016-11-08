@@ -166,7 +166,7 @@ QVF: Only important for the graphical visualization of a dataset. Determines, we
 #7. Example: Exercising a version-controlled modification on an imaginary RDF dataset
 In the following, the KVC application will be set up and applied to an example RDF dataset to explain the basic functionalities. The initial dataset consists of only 10 triples and looks like that:
 
-![Bildschirmfoto 2016-08-23 um 15.36.13.png](https://bitbucket.org/repo/4a5M5z/images/1007350453-Bildschirmfoto%202016-08-23%20um%2015.36.13.png)
+![Bildschirmfoto 2016-08-23 um 15.36.13.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/1007350453-Bildschirmfoto%202016-08-23%20um%2015.36.13.png)
 
 Before starting to work with the application, it is expedient to survey the preferences by the "log" command:
 
