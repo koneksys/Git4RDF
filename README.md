@@ -10,21 +10,21 @@ The *index layer* is an intermediate level, where changes that are intended to b
 
 The staged changes can be committed to the *local repository*.
 
-![Repositories.png](https://bitbucket.org/repo/4a5M5z/images/4268399974-Repositories.png)
+![Repositories.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/4268399974-Repositories.png)
 #3. Details of a commit action
 A new commit means a user-induced update of the version model of the respective repository with a new version of the dataset.
 ## Version Model ##
 The version model is an RDF dataset in every repository of Koneksys Version Control. It tracks the changes between two consecutive dataset versions and ensures retrievability of previous versions. Its functionality will be displayed with the following example dataset.
 
-![Dataset1.png](https://bitbucket.org/repo/4a5M5z/images/4068699272-Dataset1.png)
+![Dataset1.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/4068699272-Dataset1.png)
 
 This image depicts an RDF dataset illustrated as a graph. As a user wants to modify the underlying data, the graph will be altered with deleted and added triples:
 
-![Dataset2.png](https://bitbucket.org/repo/4a5M5z/images/21033112-Dataset2.png)
+![Dataset2.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/21033112-Dataset2.png)
 
 Once this modified dataset gets committed to the local repository, all selected changes will be stored in the version model of the local repository and the updated version of the dataset will be saved. The appearance of a version model between two commits is shown below:
 
-![VersionModel.png](https://bitbucket.org/repo/4a5M5z/images/1191799286-VersionModel.png)
+![VersionModel.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/1191799286-VersionModel.png)
 #4. KVC tooling
 Important commands to control the program will be presented in the following. They are summarized in the following table and will be explained in detail afterwards.
 
@@ -147,15 +147,14 @@ Exit the application
 #5. Installation of the KVC command line application
 This following sections will give you a short overview of the first steps that are necessary to get your application up and running.
 ## Download program files
-Please find the latest version of Koneksys Version Control at the following [link](https://www.dropbox.com/s/7abctuh1eh2q6or/KoneksysVersionControl.jar?dl=0):
 Please download the jar file "KoneksysVersionControl.jar" and store it on your machine
 
-![DownloadDropboxJar.png](https://bitbucket.org/repo/4a5M5z/images/2739619907-DownloadDropboxJar.png)
+![DownloadDropboxJar.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2016.31.54.png)
 
 ## Open program in commandline
 type "java -jar <path-to-file>.jar"
 
-![Bildschirmfoto 2016-11-04 um 15.58.43.png](https://bitbucket.org/repo/4a5M5z/images/264178603-Bildschirmfoto%202016-11-04%20um%2015.58.43.png)
+![Bildschirmfoto 2016-11-04 um 15.58.43.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2015.58.43.png)
 #6. KVC configuration
 ## config command:
 user.name: Important to specify the user's ID, when working collaboratively on the program
@@ -170,11 +169,11 @@ In the following, the KVC application will be set up and applied to an example R
 
 Before starting to work with the application, it is expedient to survey the preferences by the "log" command:
 
-![Bildschirmfoto 2016-11-04 um 15.58.54.png](https://bitbucket.org/repo/4a5M5z/images/1350033232-Bildschirmfoto%202016-11-04%20um%2015.58.54.png)
+![Bildschirmfoto 2016-11-04 um 15.58.54.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2015.58.54.png)
 
 To change the author ID, the "config" command is used:
 
-![Bildschirmfoto 2016-11-04 um 16.04.44.png](https://bitbucket.org/repo/4a5M5z/images/2874818857-Bildschirmfoto%202016-11-04%20um%2016.04.44.png)
+![Bildschirmfoto 2016-11-04 um 16.04.44.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.04.44.png)
 
 This ID will characterize all subsequent commits from this application account, unless its changed with config again.
 
@@ -184,17 +183,17 @@ It should be ensured, that the triple format of files to be loaded into the work
 Before the features of KVC can be deployed, both workspace directory and local repository directory have to be specified first.
 To determine the directory of the workspace, the command "C" is used:
 
-![Bildschirmfoto 2016-11-04 um 16.05.57.png](https://bitbucket.org/repo/4a5M5z/images/374146837-Bildschirmfoto%202016-11-04%20um%2016.05.57.png)
+![Bildschirmfoto 2016-11-04 um 16.05.57.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.05.57.png)
 
 If no <path> had been denoted, the workspace would have been set up in the current working directory.
 
 If a local repository already exists, the command "dir" will be used to determine its directory:
 
-![Bildschirmfoto 2016-11-04 um 16.12.06.png](https://bitbucket.org/repo/4a5M5z/images/4115208933-Bildschirmfoto%202016-11-04%20um%2016.12.06.png)
+![Bildschirmfoto 2016-11-04 um 16.12.06.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.12.06.png)
 
 Else, the user should use the command "init" to create a new local repository:
 
-![Bildschirmfoto 2016-11-04 um 16.10.13.png](https://bitbucket.org/repo/4a5M5z/images/904027515-Bildschirmfoto%202016-11-04%20um%2016.10.13.png)
+![Bildschirmfoto 2016-11-04 um 16.10.13.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.10.13.png)
 
 Similar to the "C" command, if no <path> is denoted with the init command, the local repository will be set up in the current working directory.
 ##Start working with the program
@@ -205,25 +204,25 @@ http://www.koneksys.com/idontknowyet
 
 Specify the file path of the RDF file and make sure that the read format in config is equivalent to the file storage format:
 
-![Bildschirmfoto 2016-11-04 um 16.23.25.png](https://bitbucket.org/repo/4a5M5z/images/2108299829-Bildschirmfoto%202016-11-04%20um%2016.23.25.png)![Bildschirmfoto 2016-11-04 um 16.23.30.png](https://bitbucket.org/repo/4a5M5z/images/453745587-Bildschirmfoto%202016-11-04%20um%2016.23.30.png)
+![Bildschirmfoto 2016-11-04 um 16.23.25.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.23.25.png)![Bildschirmfoto 2016-11-04 um 16.23.30.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.23.30.png)
 
 If the local repository was already set up and the user wants to check out the last version of it and copy it to the workspace, the load command should be used with the argument "-local".
 
-![Bildschirmfoto 2016-11-04 um 17.10.26.png](https://bitbucket.org/repo/4a5M5z/images/2459157933-Bildschirmfoto%202016-11-04%20um%2017.10.26.png)![Bildschirmfoto 2016-11-04 um 17.10.58.png](https://bitbucket.org/repo/4a5M5z/images/2424925813-Bildschirmfoto%202016-11-04%20um%2017.10.58.png)
+![Bildschirmfoto 2016-11-04 um 17.10.26.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.10.26.png)![Bildschirmfoto 2016-11-04 um 17.10.58.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.10.58.png)
 
 The loaded dataset will be displayed in a graphical representation:
 
-![Bildschirmfoto 2016-11-04 um 17.11.02.png](https://bitbucket.org/repo/4a5M5z/images/684810677-Bildschirmfoto%202016-11-04%20um%2017.11.02.png)
+![Bildschirmfoto 2016-11-04 um 17.11.02.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.11.02.png)
 
 As in this particular case the local repository was only set up recently and is still empty, the first step should be a commit of the initial dataset, that was loaded into the workspace from an external file, to the local repository. For this purpose, "commit -a" is used:
 
-![Bildschirmfoto 2016-11-04 um 17.15.00.png](https://bitbucket.org/repo/4a5M5z/images/2948318505-Bildschirmfoto%202016-11-04%20um%2017.15.00.png)![Bildschirmfoto 2016-11-04 um 17.22.20.png](https://bitbucket.org/repo/4a5M5z/images/4257534703-Bildschirmfoto%202016-11-04%20um%2017.22.20.png)
+![Bildschirmfoto 2016-11-04 um 17.15.00.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.15.00.png)![Bildschirmfoto 2016-11-04 um 17.22.20.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.22.20.png)
 
 Now the version-tracked work on the dataset can start. To modify the dataset, the application-embedded control tools will be used with the command "change -script". With this command, a SPARQL script can be inserted to directly execute update operations on the data.
 
-![Bildschirmfoto 2016-11-07 um 11.30.52.png](https://bitbucket.org/repo/4a5M5z/images/841505997-Bildschirmfoto%202016-11-07%20um%2011.30.52.png)
-![Bildschirmfoto 2016-11-07 um 11.38.32.png](https://bitbucket.org/repo/4a5M5z/images/3138648543-Bildschirmfoto%202016-11-07%20um%2011.38.32.png)
-![Bildschirmfoto 2016-11-07 um 11.38.37.png](https://bitbucket.org/repo/4a5M5z/images/725524881-Bildschirmfoto%202016-11-07%20um%2011.38.37.png)
+![Bildschirmfoto 2016-11-07 um 11.30.52.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.30.52.png)
+![Bildschirmfoto 2016-11-07 um 11.38.32.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.38.32.png)
+![Bildschirmfoto 2016-11-07 um 11.38.37.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.38.37.png)
 
 The executed modification changes contain two additional triples and one deleted one connected to resource 3, as well as both one inserted and one deleted triple linked to resource 7.
 
@@ -231,7 +230,7 @@ The dataset can also be modified using other tools that are connected with OSLC 
 
 After the modification, the difference between the current state in the workspace and in the local repository can be shown using "status":
 
-![Bildschirmfoto 2016-11-07 um 11.40.18.png](https://bitbucket.org/repo/4a5M5z/images/1045425385-Bildschirmfoto%202016-11-07%20um%2011.40.18.png)
+![Bildschirmfoto 2016-11-07 um 11.40.18.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.40.18.png)
 
 This command lists all triples, that are affected by a change or represent a difference between the two models. It also assigns every change with a number, that has to be used to identify the change with "add", "commit" or "rm" commands.
 
@@ -241,29 +240,29 @@ In this particular case, all changes regarding resource 3 might be intended to b
 
 To achieve that, the "add" command will be used repeatedly, identifying all changes linked to resource 3:
 
-![Bildschirmfoto 2016-11-07 um 11.42.39.png](https://bitbucket.org/repo/4a5M5z/images/3998323136-Bildschirmfoto%202016-11-07%20um%2011.42.39.png)
+![Bildschirmfoto 2016-11-07 um 11.42.39.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.42.39.png)
 
 After that, the content of the index layer could be reviewed with the command "index":
 
-![Bildschirmfoto 2016-11-07 um 11.42.54.png](https://bitbucket.org/repo/4a5M5z/images/2350328766-Bildschirmfoto%202016-11-07%20um%2011.42.54.png)
+![Bildschirmfoto 2016-11-07 um 11.42.54.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.42.54.png)
 
 To commit all the changes of the index layer to the local repository model, the "commit" command is used again.
 
 As one can see in the graphical illustration, both the version model and the application model of the local repository have been updated now:
 
-![Bildschirmfoto 2016-11-07 um 11.43.22.png](https://bitbucket.org/repo/4a5M5z/images/1555792380-Bildschirmfoto%202016-11-07%20um%2011.43.22.png)
+![Bildschirmfoto 2016-11-07 um 11.43.22.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.43.22.png)
 
 Using the "status" command again, the differences between the current datasets in workspace and local repository have been reduced to the ones related to resource 7:
 
-![Bildschirmfoto 2016-11-07 um 11.59.20.png](https://bitbucket.org/repo/4a5M5z/images/4236796704-Bildschirmfoto%202016-11-07%20um%2011.59.20.png)
+![Bildschirmfoto 2016-11-07 um 11.59.20.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2011.59.20.png)
 
 To commit those changes to the local repository as well, the previous steps will be repeated to create yet another commit:
 
-![Bildschirmfoto 2016-11-07 um 12.35.37.png](https://bitbucket.org/repo/4a5M5z/images/2975697864-Bildschirmfoto%202016-11-07%20um%2012.35.37.png)
+![Bildschirmfoto 2016-11-07 um 12.35.37.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2012.35.37.png)
 
 With this command you get a view of the local repository only:
 
-![Bildschirmfoto 2016-11-07 um 12.38.15.png](https://bitbucket.org/repo/4a5M5z/images/676144826-Bildschirmfoto%202016-11-07%20um%2012.38.15.png)
+![Bildschirmfoto 2016-11-07 um 12.38.15.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2012.38.15.png)
 
 The RDF datasets and scripts that were used in the demonstration of a KVC set up are included in the application download and can be reenacted to become familiar with the program.
 
