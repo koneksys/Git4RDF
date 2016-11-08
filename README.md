@@ -147,7 +147,7 @@ Exit the application
 #5. Installation of the KVC command line application
 This following sections will give you a short overview of the first steps that are necessary to get your application up and running.
 ## Download program files
-Please download the jar file "KoneksysVersionControl.jar" and store it on your machine
+Please download the jar file "KoneksysVersionControl.jar" and the text file "ExampleDataset.txt" and store both on your machine.
 
 ![DownloadDropboxJar.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2016.31.54.png)
 
