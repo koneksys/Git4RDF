@@ -154,7 +154,7 @@ Please download the jar file "git4RDF.jar" and the text file "ExampleDataset.txt
 ![DownloadDropboxJar.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2016.31.54.png)
 
 ## Open program in commandline
-type "java -jar <path-to-file>.jar"
+type "java -jar \<path-to-file\>.jar"
 
 ![Bildschirmfoto 2016-11-04 um 15.58.43.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2015.58.43.png)
 #6. KVC configuration
@@ -187,7 +187,7 @@ To determine the directory of the workspace, the command "C" is used:
 
 ![Bildschirmfoto 2016-11-04 um 16.05.57.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.05.57.png)
 
-If no <path> had been denoted, the workspace would have been set up in the current working directory.
+If no \<path\> had been denoted, the workspace would have been set up in the current working directory.
 
 If a local repository already exists, the command "dir" will be used to determine its directory:
 
@@ -197,12 +197,12 @@ Else, the user should use the command "init" to create a new local repository:
 
 ![Bildschirmfoto 2016-11-04 um 16.10.13.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2016.10.13.png)
 
-Similar to the "C" command, if no <path> is denoted with the init command, the local repository will be set up in the current working directory.
+Similar to the "C" command, if no path is denoted with the init command, the local repository will be set up in the current working directory.
 ##Start working with the program
 Load a dataset into the workspace to work on it with the command "load".
 You can download the demonstration dataset that is used here at: 
 
-http://www.koneksys.com/idontknowyet
+https://github.com/koneksys/Git4RDF/blob/master/ExampleDataset.txt
 
 Specify the file path of the RDF file and make sure that the read format in config is equivalent to the file storage format:
 
@@ -273,8 +273,8 @@ The used commands can be copied and pasted in the following order:
 The directory where the source code of the program and hence the resources for the example
 set up are stored, varies on your personal settings. Therefore, it can not be XX in general.
 
-The directory of the application files will therefore be substituted with <file-path>.
-Whenever <file-path> occurs in the following commands, please replace it with the directory,
+The directory of the application files will therefore be substituted with \<file-path\>.
+Whenever \<file-path\> occurs in the following commands, please replace it with the directory,
 that you stored the application files of KVC in.
 
 1. Initialize workspace:
