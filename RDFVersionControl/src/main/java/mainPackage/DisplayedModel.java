@@ -13,7 +13,7 @@ public class DisplayedModel {
 	//Constructor
 	public DisplayedModel(Model inputModel,String dir,List<String> numbers){
 		setModelIdentifier(numbers);
-		fileName = "File-displayedModel" + modelIdentifier;
+		fileName = "File-displayedModel1" + modelIdentifier;
 		SparqlUtils.model2File(inputModel,dir + File.separator + fileName);
 	}
 
