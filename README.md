@@ -1,5 +1,6 @@
 #1. What is a Version Control System?
 A version control system allows you to track the history of data. It manages changes to a dataset and supports creating different versions of it. 
+https://en.wikipedia.org/wiki/Version_control
 #2. Introduction to Koneksys Version Control
 Koneksys Version Control (KVC) is a version control concept specifically designed for the management of RDF datasets. It tracks the progress of an RDF project and stores previous versions of the data.
 ## KVC repositories ##
@@ -147,7 +148,7 @@ Exit the application
 #5. Installation of the KVC command line application
 This following sections will give you a short overview of the first steps that are necessary to get your application up and running.
 ## Download program files
-Please download the jar file "KoneksysVersionControl.jar" and the text file "ExampleDataset.txt" and store both on your machine.
+Please download the jar file "git4RDF.jar" and the text file "ExampleDataset.txt" and store both on your machine.
 
 ![DownloadDropboxJar.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-07%20um%2016.31.54.png)
 
