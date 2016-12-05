@@ -212,13 +212,13 @@ If the local repository was already set up and the user wants to check out the l
 
 ![Bildschirmfoto 2016-11-04 um 17.10.26.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.10.26.png)![Bildschirmfoto 2016-11-04 um 17.10.58.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.10.58.png)
 
-The loaded dataset will be displayed in a graphical representation:
-
-![Bildschirmfoto 2016-11-04 um 17.11.02.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.11.02.png)
-
 As in this particular case the local repository was only set up recently and is still empty, the first step should be a commit of the initial dataset, that was loaded into the workspace from an external file, to the local repository. For this purpose, "commit -a" is used:
 
 ![Bildschirmfoto 2016-11-04 um 17.15.00.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.15.00.png)![Bildschirmfoto 2016-11-04 um 17.22.20.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.22.20.png)
+
+The commited dataset will be displayed in a graphical representation:
+
+![Bildschirmfoto 2016-11-04 um 17.11.02.png](https://github.com/koneksys/Git4RDF/blob/master/Graphics/Bildschirmfoto%202016-11-04%20um%2017.11.02.png)
 
 Now the version-tracked work on the dataset can start. To modify the dataset, the application-embedded control tools will be used with the command "change -script". With this command, a SPARQL script can be inserted to directly execute update operations on the data.
 
